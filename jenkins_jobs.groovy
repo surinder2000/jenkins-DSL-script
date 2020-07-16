@@ -5,6 +5,7 @@ job("Pull data from Github"){
   }
   triggers {
     scm("* * * * *")
+  }
   steps{
     shell('''if ls /root | grep webdata
 then
