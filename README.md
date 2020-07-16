@@ -1,2 +1,2 @@
-# jenkins-DSL-script
-Jenkins DSL script for creating jobs
+# Jenkins DSL script
+Jenkins DSL script for creating jenkins jobs
