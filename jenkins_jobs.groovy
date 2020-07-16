@@ -143,13 +143,13 @@ job("Email notification"){
 }
 
 buildPipelineView("Pipeline view") {
-  filterBuildQueue()
-  filterExecutors()
+  filterBuildQueue(true)
+  filterExecutors(false)
   title("My pipeline")
   displayedBuilds(1)
   selectedJob("Pull data from Github")
-  alwaysAllowManualTrigger()
-  showPipelineParameters()
+  alwaysAllowManualTrigger(true)
+  showPipelineParameters(true)
   refreshFrequency(10)
 }
 
